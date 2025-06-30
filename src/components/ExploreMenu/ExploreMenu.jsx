@@ -6,11 +6,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./ExploreMenu.css";
 import { menu_list } from "../../assets/frontend_assets/assets";
+import menu_all from "../../assets/frontend_assets/menu_6.png"; // ✅ add this
 
 function ExploreMenu({ category, setcategory }) {
-  // Add "All" option manually in the menu
   const categories = [
-    { menu_name: "All", menu_image: "/images/all.png" }, // you can add your own image
+    { menu_name: "All", menu_image: menu_all },
     ...menu_list,
   ];
 
