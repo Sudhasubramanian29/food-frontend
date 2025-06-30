@@ -34,3 +34,45 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
+
+/* --------------- Responsive: Tablet (max-width: 900px) --------------- */
+
+@media (max-width: 900px) {
+  .place-order {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .multi-fields {
+    flex-direction: column;
+  }
+}
+
+/* --------------- Responsive: Phone (max-width: 480px) --------------- */
+
+@media (max-width: 480px) {
+  .place-order {
+    padding: 15px 10px;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .multi-fields {
+    flex-direction: column;
+  }
+
+  .place-order input {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .cart-total {
+    padding: 15px;
+  }
+
+  .cart-total button {
+    font-size: 1rem;
+  }
+}
